@@ -17,6 +17,8 @@ elif op == 2:
 elif op == 3:
     resultado = num1 * num2
     print("A multiplicação é:", resultado)
-else:
+elif op == 4:
     resultado = num1 / num2
     print("A divisão é:", resultado) 
+else:
+    print("Opção inválida")
