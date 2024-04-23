@@ -4,6 +4,5 @@ idade=int(input("Digite a sua idade: "))
 altura=float(input("Digite a sua altura: "))
 
 # Saída
-print("Nome digitado: ", nome)
-print("Idade digitada: ", idade)
-print("Altura digitado: ", altura)
+# \n é quebra de linha
+print("Nome digitado: ", nome, "\nIdade digitada: ", idade, "\nAltura digitado: ", altura)
